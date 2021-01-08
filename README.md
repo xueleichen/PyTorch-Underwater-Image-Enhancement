@@ -20,9 +20,11 @@ If you use this code in your research, please cite the following paper:
 
     @misc{chen2021underwater,
       title={Underwater Image Enhancement based on Deep Learning and Image Formation Model}, 
-      author={Xuelei Chen and Lingwei Quan and Chao Yi and Cunyue Lu},
+      author={Xuelei Chen and Pin Zhang and Lingwei Quan and Chao Yi and Cunyue Lu},
       year={2021},
       eprint={2101.00991},
       archivePrefix={arXiv},
       primaryClass={eess.IV}
     }
+
+The chinese version is submitted to a chinese journal.
