@@ -16,7 +16,7 @@ For convenience, you can run the following command to quickly see the results us
 
     $ python test.py ./checkpoints/model_best_2842.pth.tar ./test_img/
 ### Citation
-If you use this code in your research, please cite the following paper:
+If you use this code in your research, please consider citing the following paper:
 
     @misc{chen2021underwater,
       title={Underwater Image Enhancement based on Deep Learning and Image Formation Model}, 
@@ -25,8 +25,8 @@ If you use this code in your research, please cite the following paper:
       eprint={2101.00991},
       archivePrefix={arXiv},
       primaryClass={eess.IV}
-    }
-
-The chinese version is submitted to a chinese journal.
+ or the Chinese journal version:
+ 
+    [1]陈学磊,张品,权令伟,易超,鹿存跃.融合深度学习与成像模型的水下图像增强算法[J/OL].计算机工程:1-9[2021-03-15].https://doi.org/10.19678/j.issn.1000-3428.0060653.
 ### Acknowledgment
 Sponsored by the Oceanic Interdisciplinary Program of Shanghai Jiao Tong University (project number SL2020ZD103)
