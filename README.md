@@ -2,19 +2,18 @@
 
 This is the repo for "Underwater Image Enhancement based on Deep Learning and Image Formation Model"[[arXiv]](https://arxiv.org/abs/2101.00991)
 
-The current code works with NVIDIA GPU on Ubuntu. I am not sure if it works on other plateforms or with CPU. 
+The current code works with NVIDIA GPU on Ubuntu. You can do testing on CPU. 
 
 ### Requirements
-    Pytorch==1.6.0
-    pillow==7.2.0
+    pip install -r requirements.txt
 
 ### Train the model
     $ python train.py TRAIN_RAW_IMAGE_FOLDER TRAIN_REFERENCE_IMAGE_FOLDER
 ### Test the model
-    $ python test.py CHECKPOINTS_PATH TEST_RAW_IMAGE_FOLDER
+    $ python test.py --checkpoint CHECKPOINTS_PATH
 For convenience, you can run the following command to quickly see the results using the trained model reported in our paper.
 
-    $ python test.py ./checkpoints/model_best_2842.pth.tar ./test_img/
+    $ python test.py --checkpoint ./checkpoints/model_best_2842.pth.tar
 ### Citation
 If you use this code in your research, please consider citing the following paper:
 
